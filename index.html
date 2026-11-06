@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Government in Court | Utah Hive Politics</title>
+<meta name="description" content="A statewide docket of court cases where Utah governments and officials are sued or challenged.">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#1E3A8A;--teal-deep:#172554;--teal-soft:#dbe4f5;--gold:#F2B705;--gold-bg:#fff6d6;--ink:#0F1F3D;--ink-soft:#3d4a63;--page:#ffffff;--box:#eef2fb;--rule:#c4d0ea;--ok:#1d6b3a;--no:#9b1c1c;}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;font-size:112.5%}
+body{margin:0;background:var(--page);color:var(--ink);font-family:Georgia,"Iowan Old Style",serif;line-height:1.6;overflow-wrap:break-word}
+a{color:var(--teal)}
+img{max-width:100%}
+.hb-bar{background:#0d0b0a;border-bottom:1px solid #3a2f1c;padding:10px 20px}
+.hb-bar a{display:flex;align-items:center;gap:12px;max-width:1100px;margin:0 auto;text-decoration:none}
+.hb-bar img{width:52px;height:52px;border-radius:4px;display:block;flex:none}
+.hb-name{font-family:'Cinzel','Trajan Pro',Georgia,serif;color:#d4af37;font-size:16px;letter-spacing:.14em;text-transform:uppercase;line-height:1.2;display:block}
+.hb-sub{font-family:Georgia,serif;font-style:italic;color:#b8956a;font-size:12.5px;letter-spacing:.02em;display:block;margin-top:2px}
+.hb-line-top{display:block;font-family:Georgia,serif;color:#e8d9b5;font-size:13px;margin-top:4px}
+.hb-foot{background:#0d0b0a;color:#b8956a;text-align:center;padding:26px 20px 30px;font-family:Georgia,serif}
+.hb-foot img{width:52px;height:52px;display:block;margin:0 auto 10px}
+.hb-foot .hb-name{font-size:14px}
+.hb-foot .hb-tag{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:#8a7650;margin-top:8px;display:block}
+.hb-line{max-width:720px;margin:14px auto 0;color:#e8d9b5;font-size:15.5px;line-height:1.5}
+.hb-tips{margin:16px 0 4px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.hb-btn{display:inline-block;border:2px solid #d4af37;background:#d4af37;color:#0d0b0a;font:700 15px Georgia,serif;padding:10px 18px;border-radius:6px;text-decoration:none}
+.hb-btn2{background:transparent;color:#d4af37}
+.hb-small{font-size:12.5px;color:#8a7650;margin:6px 0 0}
+@media(max-width:600px){.hb-bar{padding:8px 16px}.hb-bar img{width:38px;height:38px}.hb-name{font-size:13px}.hb-sub{font-size:11.5px}}
+.oc-top{background:var(--teal-deep);color:#d3ddf3;font:600 13px Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase}
+.oc-top .in{max-width:960px;margin:0 auto;padding:10px 20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.oc-top a{color:#fff;text-decoration:none}
+.case-header{background:var(--teal);color:#fff;padding:34px 20px 30px;border-bottom:6px solid var(--gold)}
+.case-wrap{max-width:960px;margin:0 auto}
+.case-eyebrow{font:700 13px Arial,sans-serif;letter-spacing:.14em;color:var(--gold);margin:0 0 10px}
+.case-title{font-size:2.1rem;line-height:1.15;margin:0 0 14px}
+.case-title em{font-style:normal;color:var(--gold)}
+.case-sub{font-size:1.08rem;margin:0 0 16px;color:#e3e9f7;max-width:820px}
+.meta-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.meta-pill{font:600 14px Arial,sans-serif;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);padding:6px 10px;border-radius:999px}
+.pub-date{font:600 14px Arial,sans-serif;color:#d3ddf3;margin:0}
+main{max-width:960px;margin:0 auto;padding:26px 20px 10px}
+section{margin:0 0 38px}
+h2.sh{font-size:1.55rem;margin:0 0 16px;border-bottom:3px solid var(--teal);padding-bottom:8px;color:var(--teal-deep)}
+h3{font-size:1.2rem;color:var(--teal-deep);margin:22px 0 8px}
+.ww{border:3px solid var(--teal);border-radius:10px;overflow:hidden;margin:0 0 28px}
+.ww-h{background:var(--teal);color:#fff;padding:12px 18px}
+.ww-lbl{font:700 12.5px Arial,sans-serif;letter-spacing:.14em;color:var(--gold)}
+.ww-h .pl{font-size:1.15rem;font-weight:700;margin-top:2px}
+.ww ul{list-style:none;margin:0;padding:6px 18px 12px}
+.ww li{padding:7px 0;border-bottom:1px solid #e2e8f5}
+.ww li:last-child{border-bottom:0}
+.ww li b{color:var(--teal-deep)}
+.plain{background:var(--gold-bg);border:2px dashed #c99700;padding:16px 20px;margin:0 0 28px}
+.plain h2{font-size:1.25rem;margin:0 0 8px;color:var(--ink)}
+.short{background:var(--box);border:1px solid var(--rule);border-left:7px solid var(--gold);padding:18px 22px;margin:0 0 28px}
+.short h2{font-size:1.25rem;margin:0 0 10px;color:var(--teal-deep)}
+.short ul{margin:0;padding-left:22px}.short li{margin-bottom:8px}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 30px}
+.toc a{font:15px Arial,sans-serif;padding:8px 13px;border:1px solid var(--rule);background:var(--box);color:var(--ink);text-decoration:none;border-radius:999px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:12px 0 18px}
+.stat{background:var(--teal);color:#fff;padding:16px;border-radius:8px;text-align:center}
+.stat b{display:block;font:700 1.9rem Arial,sans-serif;color:var(--gold)}
+.stat span{font-size:.95rem}
+table{width:100%;border-collapse:collapse;font-size:1rem;margin:10px 0 6px}
+th,td{padding:9px 10px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+th{background:var(--teal);color:#fff;font:700 14px Arial,sans-serif;letter-spacing:.04em}
+td.n,th.n{text-align:right;white-space:nowrap}
+tr.tot td{font-weight:700;border-top:2px solid var(--teal)}
+.tw{overflow-x:auto}
+.note{font:14px Arial,sans-serif;color:var(--ink-soft)}
+.quote{border-left:6px solid var(--gold);background:var(--box);padding:12px 16px;margin:12px 0}
+.quote b{display:block;color:var(--teal-deep);font-family:Arial,sans-serif;font-size:.95rem;margin-bottom:4px}
+.mermaidbox{background:#fff;border:2px solid var(--rule);border-radius:6px;padding:12px;margin:14px 0}
+pre.mermaid{margin:0;font-size:20px;text-align:center}
+.slides{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.slides figure{margin:0;background:var(--box);border:1px solid var(--rule);padding:8px}
+.slides figcaption{font:14px Arial,sans-serif;color:var(--ink-soft);margin-top:6px}
+#map{height:380px;border:2px solid var(--teal);border-radius:6px}
+.people{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.person{border:1px solid var(--rule);border-top:6px solid var(--teal);padding:12px 14px;background:#fff}
+.person b{display:block;font-size:1.05rem}
+.person span{display:block;font:13px Arial,sans-serif;color:var(--teal);text-transform:uppercase;letter-spacing:.06em;margin:2px 0 6px}
+.ask li{margin-bottom:10px}
+.ask b{color:var(--teal-deep)}
+.unk{background:#fff;border:2px solid var(--rule);padding:14px 18px}
+.unk li{margin-bottom:8px}
+.flips{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.flip{text-align:left;background:var(--box);border:1px solid var(--rule);border-top:5px solid var(--teal);padding:14px 16px;cursor:pointer;font:inherit;color:var(--ink);min-height:96px}
+.flip .ft{font-weight:bold;font-size:1.05rem}
+.flip .fh{font:13px Arial,sans-serif;color:var(--ink-soft);margin-top:6px}
+.flip .fd{display:none;margin-top:8px;font-size:.98rem}
+.flip[aria-expanded="true"] .fd{display:block}
+.flip[aria-expanded="true"] .fh{display:none}
+.tl{list-style:none;margin:0;padding:0;border-left:4px solid var(--teal)}
+.tl li{padding:8px 0 8px 18px;position:relative}
+.tl li:before{content:"";position:absolute;left:-10px;top:15px;width:14px;height:14px;border-radius:50%;background:var(--gold);border:2px solid var(--teal)}
+.tl b{display:block;color:var(--teal-deep);font-family:Arial,sans-serif}
+.tl li.og:before{background:var(--teal)}
+.counter{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.counter div{background:var(--teal);color:#fff;padding:14px;text-align:center;border-radius:6px}
+.counter .n{font:700 1.8rem Arial,sans-serif;color:var(--gold)}
+.counter .l{font-size:.88rem}
+.connect ul{list-style:none;margin:0;padding:0}
+.connect li{border:1px solid var(--rule);border-left:6px solid var(--gold);padding:10px 14px;margin:0 0 10px}
+.connect li a{font-weight:700}
+.connect li span{display:block;color:var(--ink-soft);font-size:.95rem}
+.sources details{border:1px solid var(--rule);background:var(--box);padding:12px 16px}
+.sources summary{cursor:pointer;font:700 16px Arial,sans-serif;color:var(--teal-deep)}
+.sources li{margin:8px 0;font-size:.98rem}
+.bars{margin:12px 0}
+.bar{display:grid;grid-template-columns:110px 1fr 120px;gap:10px;align-items:center;margin:6px 0;font-family:Arial,sans-serif;font-size:15px}
+.bar .t{background:#e3e8f4;height:26px;border-radius:4px;overflow:hidden}
+.bar .f{background:var(--teal);height:100%}
+.bar .f.g{background:var(--gold)}
+.bar .v{text-align:right;font-weight:700}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.cards a{display:block;background:var(--box);border:1px solid var(--rule);border-top:6px solid var(--teal);padding:16px 18px;text-decoration:none;color:var(--ink);border-radius:4px}
+.cards a b{display:block;font-size:1.15rem;color:var(--teal-deep);margin-bottom:6px}
+.cards a span{display:block;font-size:.97rem;color:var(--ink-soft)}
+.cards a i{display:block;font:13px Arial,sans-serif;color:var(--teal);margin-top:8px;font-style:normal}
+@media(max-width:600px){html{font-size:106%}.case-title{font-size:1.6rem}.bar{grid-template-columns:70px 1fr 96px;font-size:13.5px}th,td{padding:7px 6px;font-size:.92rem}pre.mermaid{font-size:16px}}
+</style>
+</head>
+<body>
+<div class="hb-bar"><a href="https://webercountyhive.substack.com/" target="_blank" rel="noopener"><img src="uhp-badge.png" alt="Utah Hive Politics logo"><span><span class="hb-name">Utah Hive Politics</span><span class="hb-sub">from the publisher of The Weber County Hive</span><span class="hb-line-top">The people's publication. We investigate what's best for the public as a whole, not any party or special interest.</span></span></a></div>
+<div class="oc-top"><div class="in"><span><a href="index.html">← All Government in Court cases</a> &nbsp;·&nbsp; <a href="https://weber-county-hive.github.io/-weber-county-hive-index/">Hive library ↗</a></span><span>Government in Court · Court records</span></div></div>
+<header class="case-header"><div class="case-wrap"><p class="case-eyebrow">GOVERNMENT IN COURT · STATEWIDE DOCKET</p><h1 class="case-title">Government in Court: <em>when Utah agencies and officials are taken to court</em></h1><p class="case-sub">A docket of court cases where a Utah government, agency or official is sued or challenged, read from the filings. Each case shows who is suing whom, what each side says, what records confirm, and where it stands.</p><p class="pub-date">Posted Nov. 6, 2026 · Updated Nov. 6, 2026</p></div></header>
+<main>
+<div class="plain"><h2>In plain words</h2><p>Sometimes people take their government to court, and sometimes one government sues another. This page keeps a list of those cases. A lawsuit is one side's story until a judge or jury decides, so every case here keeps what each side says apart from what the records show.</p></div><div class="stats"><div class="stat"><b>9</b><span>cases on the docket</span></div><div class="stat"><b>8</b><span>open or status not verified</span></div><div class="stat"><b>1</b><span>decided on appeal (Amendment D)</span></div><div class="stat"><b>6</b><span>courts involved</span></div></div><section id="cases"><h2 class="sh">The docket</h2><div class="tw"><table><thead><tr><th>Call no.</th><th>Case</th><th>Court and number</th><th>Status</th><th>Government involved</th></tr></thead><tbody><tr><td>GC 001</td><td><a href="rubicon-ag-lost-evidence.html"><b>Larsen / Rubicon v. Office of the Utah Attorney General</b></a><br><span class="note">A company says the AG's Office lost seized papers and drives; the office says federal agents had custody.</span></td><td>Third District (Salt Lake), No. 260907235</td><td>Motion to dismiss reported filed Nov. 4; later rulings not verified</td><td>Attorney General's Office</td></tr><tr><td>GC 002</td><td><a href="ogden-valley-city-v-tax-commission.html"><b>Ogden Valley City v. Utah State Tax Commission</b></a><br><span class="note">Ogden Valley City was certified one day after Jan. 1; the Tax Commission says it can't levy property tax for 2026.</span></td><td>Second District No. 260903949; appeal to Utah Supreme Court</td><td>Appeal filed; status after Aug. 2026 not verified</td><td>Weber County</td></tr><tr><td>GC 003</td><td><a href="better-utah-v-mida.html"><b>Alliance for a Better Utah et al. v. MIDA et al.</b></a><br><span class="note">A constitutional challenge to MIDA's board and powers over the Stratos data center project.</span></td><td>Third District (Salt Lake); case number not public on complaint</td><td>No ruling found (reporting through Oct. 2)</td><td>Box Elder County / state</td></tr><tr><td>GC 004</td><td><a href="utah-political-watch-v-legislature.html"><b>Utah Political Watch & Schott v. Musselman et al.</b></a><br><span class="note">An independent journalist's press-credential lawsuit against Utah Legislature staff, revived by the 10th Circuit.</span></td><td>U.S. District Court (Utah) No. 2:25-cv-00050; 10th Cir. 25-4124</td><td>Revived in part (not a finding of liability); back in district court</td><td>State Legislature</td></tr><tr><td>GC 005</td><td><a href="mango-spiral-jetty-v-state-engineer.html"><b>Mango-Spiral Jetty, LLC v. State Engineer</b></a><br><span class="note">A Promontory landowner challenges the State Engineer's denial of groundwater near the Great Salt Lake.</span></td><td>First District (Box Elder) No. 260100003</td><td>No ruling found</td><td>State water rights</td></tr><tr><td>GC 006</td><td><a href="wolf-creek-v-water-district.html"><b>Wolf Creek Resort Holdings et al. v. Wolf Creek Water & Sewer Improvement District</b></a><br><span class="note">Ogden Valley developers sue the Wolf Creek Water and Sewer Improvement District over water for new homes.</span></td><td>Second District (Ogden) No. 250903485</td><td>No ruling found</td><td>Weber County / district</td></tr><tr><td>GC 007</td><td><a href="benitez-v-reyes.html"><b>Benitez et al. v. Reyes et al.</b></a><br><span class="note">Thirty-eight Rubicon-related employees sue former AG Sean Reyes and three others over the 2023 investigation.</span></td><td>Third District per KSL (cited as No. 250909230; caption not seen)</td><td>No ruling found</td><td>Attorney General's Office</td></tr><tr><td>GC 008</td><td><a href="prop-4-redistricting-case.html"><b>League of Women Voters of Utah et al. v. Utah State Legislature (Prop 4)</b></a><br><span class="note">The Prop 4 redistricting case: voters' initiative, the Legislature's repeal, court-ordered maps and the 2026 fight over three-judge panels.</span></td><td>Third District No. 220901712; Utah Supreme Court</td><td>Map 1 in use; separate challenge to the three-judge panel law argued Oct. 5, 2026, no ruling found</td><td>State Legislature</td></tr><tr><td>GC 009</td><td><a href="amendment-d-case.html"><b>Amendment D challenge (part of LWV v. Legislature)</b></a><br><span class="note">How the Utah Supreme Court voided the Legislature's 2024 Amendment D, and what changed after.</span></td><td>2024 UT 40, Utah Supreme Court No. 20240965</td><td>Amendment voided; appellate decision issued Oct. 24, 2024</td><td>State Legislature</td></tr></tbody></table></div></section>
+<section id="what"><h2 class="sh">What goes here</h2><ul><li>People or businesses suing a state agency, county, city or district</li><li>One government suing another</li><li>Cases about how evidence, records or seized property were handled</li><li>Lawsuits over warrants, prosecutions and claims of immunity</li><li>Lawsuits over public records, open meetings and press access</li><li>Constitutional challenges to state laws and authorities</li></ul></section>
+<section id="records-fund" style="margin:28px 0;padding:22px 24px;border:3px solid #F2B705;border-radius:14px;background:#FFFBEA;color:#0F1F3D"><h2 style="margin:0 0 8px;color:#1E3A8A;font-size:1.5em">Help cover records costs</h2><p style="margin:0 0 14px;font-size:1.08em;line-height:1.5">Public records aren't always free. The Hive Records Fund helps pay records fees, copies and other costs behind pages like this one. You pick the amount, and every dollar in and every cost paid is listed publicly. The Weber County Hive is not a nonprofit, so contributions are not tax-deductible.</p><p style="margin:0;display:flex;flex-wrap:wrap;gap:12px"><a href="https://buy.stripe.com/bJecN6evZ5n25W2aqJfQI00" target="_blank" rel="noopener" style="display:inline-block;background:#1E3A8A;color:#fff;font-weight:bold;padding:12px 22px;border-radius:10px;text-decoration:none;font-size:1.1em">Give to the Records Fund</a><a href="https://weber-county-hive.github.io/Transparency/hive-records-fund.html" target="_blank" rel="noopener" style="display:inline-block;color:#1E3A8A;font-weight:bold;padding:12px 4px;font-size:1.05em">See the public ledger &rarr;</a></p></section></main>
+<div class="hb-foot"><img src="hive-bee.png" alt=""><span class="hb-name">Utah Hive Politics</span><span class="hb-sub">from the publisher of The Weber County Hive</span><span class="hb-tag">Independent · Accountability · Journalism</span><p class="hb-line">The Weber County Hive and Utah Hive Politics: the people's publication. We investigate what's best for the public as a whole, not for any party or special interest group. We report public records. You decide.</p><p class="hb-tips"><a class="hb-btn" href="https://weber-county-hive.github.io/-weber-county-hive-index/tips.html#send">Send a tip</a><a class="hb-btn hb-btn2" href="https://weber-county-hive.github.io/-weber-county-hive-index/tips.html">Tips we checked</a><a class="hb-btn hb-btn2" href="https://weber-county-hive.github.io/-weber-county-hive-index/tips.html#send">See a mistake? Tell us</a></p><p class="hb-small">We never name tipsters. When we correct a page, the fix and its date are shown on the page.</p><p class="hb-small"><a href="index.html" style="color:#d4af37">Government in Court shelf</a> · <a href="https://weber-county-hive.github.io/-weber-county-hive-index/" style="color:#d4af37">Master Index (Hive library)</a> · <a href="https://webercountyhive.substack.com/" style="color:#d4af37">Read on Substack</a></p></div>
+<script>document.querySelectorAll('.flip').forEach(function(f){f.addEventListener('click',function(){f.setAttribute('aria-expanded',f.getAttribute('aria-expanded')==='true'?'false':'true');});});</script>
+<script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.esm.min.mjs"; mermaid.initialize({startOnLoad:true,theme:"base",themeVariables:{fontSize:"20px",fontFamily:"Arial",primaryColor:"#eef2fb",primaryBorderColor:"#1E3A8A",primaryTextColor:"#0F1F3D",lineColor:"#1E3A8A"},flowchart:{useMaxWidth:true,htmlLabels:true}});</script>
+<script data-goatcounter="https://weberhive.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
